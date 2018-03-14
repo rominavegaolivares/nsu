@@ -1,0 +1,447 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.navbar-custom {
+	font-family: 'Dosis', sans-serif;
+	text-transform:uppercase;
+	font-size:16px;
+	color:#64A8D3; 
+	background-color:rgba(250,250,250,0.7);
+	font-weight:450;
+	 
+	}
+	
+.nav >li >a:hover, .nav >li >a:focus {
+    color:#218ACE;
+    background-color: #FBF7CF;
+}
+.navbar-toggle {
+	border-color:#ddd;}
+.icon-bar{
+	background-color:#888;}	
+
+.dropdown-menu{
+	color:#218ACE;
+	background-color:rgba(250,250,250,0.7);}	
+.dropdown-menu > li >a{
+	color:#218ACE;
+	}
+
+.dropdown-menu >li >a:hover{
+	color:#218ACE;
+	background-color:#F8EEC1;}	
+
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    box-shadow: none;
+    border: 0;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+	background-color:#64A8D3;
+	width:50%;
+	margin-top:10px;
+}
+.glyphicon-search{
+	top:-4px;
+}
+.input-lg{
+	top:0px;
+	height:30px;
+	}
+.btn{
+	padding-bottom:7%;
+	height:30px;
+	background-color:#64A8D3;
+	border-color:none;
+	font-size:17px;
+	text-transform:uppercase;
+	}
+	
+.btn:hover{
+	background-color:#60BBE7;
+	}
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+	
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 14px;
+	margin-top:10px;
+	
+}
+
+
+#estrenos, #destacados, #nuevos, #cahuines-de-barricada, #que-lata-que-late, #chile-en-30-min, #cortometrajes, #la-senal, #en-vivo, #articulos {
+	font-family: 'Dosis', sans-serif;
+	height:57px;
+	border-bottom:2px dotted;
+	border-bottom-color:#69B3F0;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	margin-top:-10px;
+	text-transform:uppercase;
+	text-align:left;
+	color:#69B3F0;
+	margin-left:15px;
+	}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child {
+	padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+    
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+    
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    }
+}
+
+
+.well{
+	margin-top:-10px;
+	border:none;
+	background-color:transparent;
+	}
+	
+.left.carousel-control{
+	background:none;
+	
+	}	
+.right.carousel-control{
+	background:none;
+	}		
+
+
+.carousel-inner.onebyone-carosel { margin: auto; width: 100%; }
+.onebyone-carosel .active.left { left: -25%; }
+.onebyone-carosel .active.right { left: 25%; }
+.onebyone-carosel .next { left: 25%; }
+.onebyone-carosel .prev { left: -25%; }
+
+
+body {
+  padding-top: 50px;
+}
+ 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+	border-radius:30px;
+	border:none;
+	font-family: 'Dosis', sans-serif;
+	
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(255, 234, 55, 0.5);
+    width:100%;
+    height:100%;
+    padding:5%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+	border-radius:30px;
+	
+}
+
+
+.thumbnail1 {
+    position:relative;
+    overflow:hidden;
+	border-radius:30px;
+	border:none;
+	font-family: 'Dosis', sans-serif;
+	
+}
+ 
+.caption1 {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(255, 234, 55, 0.5);
+    width:100%;
+    height:100%;
+    padding:5%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+	border-radius:30px;
+	
+}
+
+
+
+
+
+
+
+
+
+#play-icon, #play-icon2, #play-icon3, #play-icon4, #play-icon5, #play-icon6, #play-icon7, #play-icon8, #play-icon9, #play-icon10{
+	margin-top:30px;color:#FFFFFF;font-weight: lighter;font-size:45px;}
+#play-icon:hover, #play-icon2:hover, #play-icon3:hover, #play-icon4:hover, #play-icon5, #play-icon6:hover:hover, #play-icon7:hover, #play-icon8:hover, #play-icon9:hover, #play-icon10:hover{color:#FFFBE1;}
+
+
+.add-arrow{
+	float:right;
+	margin-right:25px;
+	opacity:0.8;
+	display:inline-block;
+	}
+
+#nuevos-articulos{
+	margin-left:4%;
+	font-family: 'Dosis', sans-serif;
+	color:#69B3F0;
+	text-align:justify;
+	
+	}
+
+.nuevos-imagenes{
+	border-bottom:3px dotted;
+	border-bottom-color:rgba(255, 234, 55, 0.5);
+	padding-bottom:30px;
+	}
+
+#footer{
+	margin-top:30px;
+	padding:10px;
+	background-color:#AFD9EF;
+	color:white;
+	text-align:left;
+	font-family: 'Dosis', sans-serif;
+	font-size:16px;
+	
+	}
+	
+#footer p{
+	width:80%;
+	padding-top:20px;}	
+	
+.imagen-footer{
+	padding-left:0%;
+	width:60%;
+	height:130px;
+	border-right:3px dotted;
+	border-left:none;
+	
+	}
+.imagen-footer img{
+	top:-100px;
+	vertical-align:middle;
+	
+	}	
+	
+
+.icons-socialmedia{
+	text-align:left;
+	color:white;
+	margin-top:10%;
+	}	
+#cahuines-barricada, #que-lata, #chile-en-30{
+	border-radius:30px;
+	border: 2px solid; 
+	border-color:#C0C1C2;
+	padding:10px 0 10px 0;
+	color:#69B3F0;
+	}
+	.cahuines-reseña{
+	color:#69B3F0;
+	margin-top:20%;
+	font-family: 'Droid Serif', serif;
+	text-align:justify;
+	
+	
+	}
+
+.cahuines-imagen{
+	border-right:4px dotted;
+	border-right-color:rgba(255, 234, 55, 0.5);
+	color:#69B3F0;
+	
+	}	
+	
+#botones-programas, #botones-programas2, #botones-programas3{
+	margin-left:2%;
+	font-family: 'Dosis', sans-serif;
+	font-size:22px;
+	text-transform:uppercase;
+	}
+
+
+.imagenes-modal{
+	padding-top:10px;
+	
+	}
+	
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}	
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-default-close{
+	color:#FFFFFF;
+	padding-bottom:4%;
+	vertical-align:middle;
+	font-family: 'Dosis', sans-serif;
+	text-transform:lowercase;
+	font-size:20px;
+	font-weight:400;
+	bacground-color:#69B3F0;
+	
+	}
+	
+.titulo-corto {
+	background-color: #69B3F0;
+	color:#ffffff;
+	font-family: 'Dosis', sans-serif;
+	font-size:50px;
+	padding-left:15px;
+	margin-bottom:10px;
+	width:70%;
+	}
+.inside-cortos{
+	border-left:3px dotted;
+	border-color: rgba(255, 234, 55, 0.5);
+	width:80%;
+	padding-left:15px;}	
+	
+.inside-cortos p {
+	font-family: 'Droid Serif', serif;
+	color:#69B3F0;
+	font-size:13px;
+	margin-bottom:10px;
+	text-align:justify;
+	
+	}	
+.inside-cortos img{
+	margin-bottom:10px;}
+	
+.boton-mi-lista{
+	background:none;
+	background-color:#69B3F0;
+	color:#FFFFFF;
+	border:solid;
+	border-radius:5px;
+	font-size:13px;
+	font-family: 'Droid Serif', serif;
+	}
+.quienes-somos{
+	border-left:3px dotted;
+	border-color: rgba(255, 234, 55, 0.5);
+	padding-left:15px;
+	}
+		
+.texto-quienes-somos, .texto-articulos{
+	font-family: 'Droid Serif', serif;
+	color:#69B3F0;
+	font-size:13px;
+	margin-bottom:10px;
+	text-align:justify;
+	margin-top:20px;
+	}
+		
+.titulo-la-señal{
+	background-color: #69B3F0;
+	color:#ffffff;
+	font-family: 'Dosis', sans-serif;
+	font-size:50px;
+	padding-left:20px;
+	margin-bottom:10px;
+	width:40%;
+	margin-left:-10px;
+	}
+	
+.titulo-articulos{
+	color: #69B3F0;
+	font-family: 'Droid Serif', serif;
+	padding-left:20px;
+	margin-bottom:10px;
+	width:100%;
+	margin-left:-10px;
+	
+	}
+	
+.titulo-articulos h3{
+	font-size:22px;}	
+	
+.articulos{
+	border-left:3px dotted;
+	border-color: rgba(255, 234, 55, 0.5);
+	padding-left:15px;
+	
+	}	
+	
+#texto-mi-nsu{
+	font-family: 'Droid Serif', serif;
+	color:#69B3F0;
+	font-size:13px;
+	margin-bottom:10px;
+	text-align:justify;
+	
+	}
+#iniciar-sesion{
+	font-family: 'Droid Serif', serif;}	
+		
+.btn-success{
+	font-family: 'Dosis', sans-serif;
+	color:#ffffff;
+	background-color:#69B3F0;
+	border:none;
+	padding-bottom:10px;
+	
+	}	
+	
+.img-articulos{
+	margin-right:5%;
+	
+	}	
+	
+	
